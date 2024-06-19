@@ -24,21 +24,22 @@
    ```
 
 3. **Run the backend server**
+
    ```bash
    npm run start
    ```
 
-## Backend Endpoints
+4. **Backend Endpoints**
 
-    ```bash
-    GET /search: Search for users by email and optionally by number.**
-      Query Parameters:
-        email (string, required)
-        number (string, optional)
-    ```
+   ```bash
+   GET /search: Search for users by email and optionally by number.**
+     Query Parameters:
+       email (string, required)
+       number (string, optional)
+   ```
 
-## Example Request
+5. **Example Request**
 
-    ```bash
-    curl 'http://localhost:3000/search?email=jim@gmail.com&number=221122'
-    ```
+   ```bash
+   curl 'http://localhost:3000/search?email=jim@gmail.com&number=221122'
+   ```
