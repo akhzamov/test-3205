@@ -32,7 +32,7 @@
 4. **Backend Endpoints**
 
    ```bash
-   GET /search: Search for users by email and optionally by number.**
+   GET /search: Search for users by email and optionally by number.
      Query Parameters:
        email (string, required)
        number (string, optional)
