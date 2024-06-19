@@ -1,6 +1,5 @@
 ## Features
 
-- **Number Masking**: Masked input for the number field (e.g., 22-11-22).
 - **Simulated Delay**: Backend request processing includes a 5-second delay.
 - **Error Handling**: Returns a message if no users match the search criteria.
 
@@ -31,7 +30,7 @@
 
 ## Backend Endpoints
 
-    ```
+    ```bash
     GET /search: Search for users by email and optionally by number.**
       Query Parameters:
         email (string, required)
@@ -40,6 +39,6 @@
 
 ## Example Request
 
-    ```
+    ```bash
     curl 'http://localhost:3000/search?email=jim@gmail.com&number=221122'
     ```
